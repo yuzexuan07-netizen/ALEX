@@ -2491,7 +2491,62 @@ export const blogPosts: BlogPost[] = [
 <p class="text-lg leading-relaxed text-center text-white dark:text-black">美国开盘后的前2.5小时，波动最大，机会最多。重要经济数据通常在20:30发布。</p>
 </div>
 
-<p class="text-base leading-relaxed mb-4 text-center text-gray-700 dark:text-gray-300 italic">把握最佳交易时机，用最少的时间获得最大的收益。</p>`,
+<p class="text-base leading-relaxed mb-4 text-center text-gray-700 dark:text-gray-300 italic">把握最佳交易时机，用最少的时间获得最大的收益。</p>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">实战交易建议</h2>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">掌握了黄金交易的最佳时机后，还需要在实战中灵活运用。以下是经过验证的实用建议。</p>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">⏰ 时间管理技巧</p>
+<ul class="space-y-3">
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">提前15分钟准备：</strong>在关键时段开始前做好技术分析</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">避开前5分钟：</strong>市场开盘初期波动剧烈，等待稳定</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">关注新闻日历：</strong>重要数据发布前后30分钟谨慎交易</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">设置闹钟提醒：</strong>确保不错过黄金交易时段</span>
+</li>
+</ul>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">📊 行情判断要点</p>
+<ul class="space-y-3">
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">观察美元指数：</strong>黄金与美元负相关，DXY下跌利好黄金</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">关注美债收益率：</strong>10年期美债收益率上升打压黄金</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">地缘政治风险：</strong>避险情绪升温推动黄金上涨</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">通胀预期：</strong>高通胀环境下黄金作为对冲工具受青睐</span>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
+<p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">💎 黄金法则</p>
+<p class="text-lg text-center text-white dark:text-black">在正确的时间，用正确的策略，做正确的方向。时机选择决定了50%的交易成败。</p>
+</div>`,
  en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Best Timing for Gold Trading: Mastering Market Rhythm </h1>
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700"></div>
 
@@ -2808,7 +2863,106 @@ export const blogPosts: BlogPost[] = [
 <p class="text-lg leading-relaxed text-center text-white dark:text-black">风险可控、时间灵活、盈利目标明确，最适合大多数交易员。</p>
 </div>
 
-<p class="text-base leading-relaxed mb-4 text-center text-gray-700 dark:text-gray-300 italic">选择适合自己的策略，然后坚定不移地执行，你就能在黄金市场中持续获利。</p>`,
+<p class="text-base leading-relaxed mb-4 text-center text-gray-700 dark:text-gray-300 italic">选择适合自己的策略，然后坚定不移地执行，你就能在黄金市场中持续获利。</p>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">长期盈利的关键要素</h2>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">从短期盈利到长期稳定盈利，需要建立完整的交易体系。以下是职业交易员的核心要素。</p>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">1</span>
+</div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">稳定的交易系统</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">一套经过验证的交易方法，包括进场、止损、止盈规则。</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>明确的进场信号</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>严格的止损规则</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>合理的止盈策略</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>可重复执行</span></li>
+</ul>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">2</span>
+</div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">严格的纪律性</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">100%按照交易计划执行，不受情绪影响。</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>遵守交易规则</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>控制交易频率</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>坚持风险管理</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>记录每笔交易</span></li>
+</ul>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">3</span>
+</div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">持续的学习</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">市场在变化，交易员也需要不断进步。</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>复盘总结</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>学习新策略</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>适应市场变化</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>优化交易系统</span></li>
+</ul>
+</div>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">成功案例分析</h2>
+
+<div class="space-y-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">📈 案例：从$5,000到$50,000的12个月</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-4">某汇刃学员的真实交易记录（已脱敏）</p>
+<div class="overflow-x-auto">
+<table class="w-full border-2 border-gray-300 dark:border-gray-700">
+<thead>
+<tr class="bg-gray-200 dark:bg-gray-800">
+<th class="px-4 py-2 text-left text-black dark:text-white">阶段</th>
+<th class="px-4 py-2 text-left text-black dark:text-white">时间</th>
+<th class="px-4 py-2 text-left text-black dark:text-white">账户余额</th>
+<th class="px-4 py-2 text-left text-black dark:text-white">月回报</th>
+<th class="px-4 py-2 text-left text-black dark:text-white">关键策略</th>
+</tr>
+</thead>
+<tbody>
+<tr class="border-b border-gray-200 dark:border-gray-800">
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">初期</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">1-3月</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">$5,000 → $6,500</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">10%/月</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">小仓位，严格止损</td>
+</tr>
+<tr class="border-b border-gray-200 dark:border-gray-800">
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">成长期</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">4-8月</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">$6,500 → $15,000</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">18%/月</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">趋势交易，资金增加</td>
+</tr>
+<tr class="border-b border-gray-200 dark:border-gray-800">
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">稳定期</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">9-12月</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">$15,000 → $50,000</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">35%/月</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">大趋势捕捉，复利增长</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="text-sm text-gray-500 dark:text-gray-500 mt-4">关键成功因素：始终坚持2%风险原则，从不重仓，每天复盘总结</p>
+</div>
+</div>
+
+<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
+<p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">持续获利的秘密</p>
+<p class="text-lg text-center text-white dark:text-black">不是找到完美的交易系统，而是长期坚持一个可行的系统。</p>
+</div>`,
  en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Consistent Profits in Gold Market</h1>
 
 <h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Core of Consistent Profitability</h2>
@@ -3018,7 +3172,71 @@ export const blogPosts: BlogPost[] = [
 <p class="text-lg leading-relaxed text-center text-white dark:text-black">加密货币波动极大，新手务必从BTC/ETH开始，使用小仓位，严格止损。</p>
 </div>
 
-<p class="text-base leading-relaxed mb-4 text-center text-gray-700 dark:text-gray-300 italic">加密市场充满机会，也充满风险。学好基础，控制风险，你才能长期生存。</p>`,
+<p class="text-base leading-relaxed mb-4 text-center text-gray-700 dark:text-gray-300 italic">加密市场充满机会，也充满风险。学好基础，控制风险，你才能长期生存。</p>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">数字货币交易安全指南</h2>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">在数字货币市场，安全永远是第一位的。一个错误可能导致所有资产丢失。</p>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">🔒 账户安全</p>
+<ul class="space-y-3">
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">开启双重认证(2FA)：</strong>Google Authenticator或硬件密钥</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">使用强密码：</strong>至少12位，包含大小写+数字+符号</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">定期更换密码：</strong>每3个月更换一次</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">警惕钓鱼网站：</strong>仔细检查URL，使用书签访问</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">不公开交易信息：</strong>避免成为黑客目标</span>
+</li>
+</ul>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">💰 资金安全</p>
+<ul class="space-y-3">
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">冷钱包存储大额：</strong>长期持有的币放入硬件钱包</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">交易所只放交易用币：</strong>不要把所有资产放在交易所</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">备份助记词：</strong>手写在纸上，多地点保存</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">小额测试转账：</strong>首次转账先发小额测试</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span><strong class="font-bold text-black dark:text-white">警惕空投骗局：</strong>天上不会掉馅饼</span>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
+<p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">⚠️ 安全警告</p>
+<p class="text-lg text-center text-white dark:text-black mb-4">加密货币交易不可逆！一旦转错地址或被盗，几乎无法追回。</p>
+<p class="text-center text-white dark:text-black">宁可多花时间确认，也不要因疏忽损失资产。</p>
+</div>`,
  en: `<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
  <h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Cryptocurrency Trading Basics: Your First Lesson in Crypto </h1>
  <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">The cryptocurrency market represents the future of finance. From Bitcoin to Ethereum, from blockchain technology to decentralized finance, this rapidly evolving field is changing how we think about money and value. This comprehensive guide will provide you with all the foundational knowledge needed to enter the crypto world and understand this exciting emerging market.</p>
@@ -3885,7 +4103,53 @@ export const blogPosts: BlogPost[] = [
 </div>
 </div>
 
-<p class="text-base leading-relaxed mb-4 text-center text-gray-700 dark:text-gray-300 italic">交易是一场心理战。战胜自己，才能战胜市场。</p>`,
+<p class="text-base leading-relaxed mb-4 text-center text-gray-700 dark:text-gray-300 italic">交易是一场心理战。战胜自己，才能战胜市场。</p>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">情绪控制实战技巧</h2>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">理论上理解情绪管理很容易，但在实战中控制情绪却很难。以下是经过验证的实用技巧。</p>
+
+<div class="space-y-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">🎯 技巧1：预设交易计划</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">在开盘前就制定好今天的交易计划，包括进场点、止损点、止盈点。</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">为什么有效：</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>盘前冷静，盘中只需执行</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>减少临场决策压力</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>避免情绪化交易</span></li>
+</ul>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">⏸️ 技巧2：强制休息制度</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">连续亏损2笔后，强制离开电脑30分钟。连续盈利5笔后，也要休息调整心态。</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">实施方法：</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>设置手机定时器，到时间必须离开</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>出去走走，做深呼吸</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>喝水、吃点东西</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>回来后重新评估市场</span></li>
+</ul>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">📝 技巧3：交易日记</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">每笔交易后记录：进场理由、当时情绪、结果、反思。</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">记录要点：</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>为什么进场（技术信号还是冲动）</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>进场时的情绪状态（冷静/激动/恐惧）</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>过程中是否遵守规则</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>下次如何改进</span></li>
+</ul>
+</div>
+</div>
+
+<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
+<p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">心理素质是可以训练的</p>
+<p class="text-lg text-center text-white dark:text-black">不要指望一夜之间变得冷静理性，通过持续练习和反思，每个人都能提高心理素质。</p>
+</div>`,
  en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Crypto Trading Psychology</h1>
 
 <h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Psychological Challenges in Crypto</h2>
@@ -4059,7 +4323,85 @@ export const blogPosts: BlogPost[] = [
 </div>
 </div>
 
-<p class="text-base leading-relaxed mb-4 text-center text-gray-700 dark:text-gray-300 italic">心理素质的培养需要时间。坚持训练，终有一天你会成为内心强大的交易者。</p>`,
+<p class="text-base leading-relaxed mb-4 text-center text-gray-700 dark:text-gray-300 italic">心理素质的培养需要时间。坚持训练，终有一天你会成为内心强大的交易者。</p>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">心理素质自我评估</h2>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">在开始培养心理素质之前，先评估自己当前的水平。以下是职业交易员的心理素质评估标准。</p>
+
+<div class="overflow-x-auto mb-8">
+<table class="w-full border-2 border-black dark:border-white">
+<thead>
+<tr>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">评估项目</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">初级(1-3分)</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">中级(4-6分)</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">高级(7-10分)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">情绪稳定性</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">亏损后心情低落，盈利后过度兴奋</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">有情绪波动但能控制</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">盈亏都能保持平常心</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">执行力</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">经常违反交易规则</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">大部分时候遵守规则</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">100%执行交易计划</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">抗压能力</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">连续亏损后想放弃</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">能承受一定压力但会焦虑</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">压力下仍能冷静决策</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">耐心程度</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">急于交易，频繁进出场</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">能等待但容易不耐烦</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">耐心等待最佳机会</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p class="text-sm text-gray-500 dark:text-gray-500 mb-8 text-center">评分标准：30分以下=初级，30-50分=中级，50分以上=高级。大多数新手在20分左右。</p>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">日常训练方法</h2>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">🧘 冥想练习</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">每天早晨交易前10分钟冥想，提高专注力和情绪控制能力。</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">具体方法：</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>找安静环境，坐直或躺下</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>闭眼，专注于呼吸</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>杂念出现时不要对抗，让它自然流走</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>持续10分钟，逐渐延长到20分钟</span></li>
+</ul>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">💪 模拟压力训练</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">在模拟账户上故意制造压力情景，训练应对能力。</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">训练场景：</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>连续3笔止损后继续交易</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>持仓过夜承受波动</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>重要数据发布前后交易</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>账户回撤20%后的心态调整</span></li>
+</ul>
+</div>
+</div>
+
+<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
+<p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">心理素质培养需要时间</p>
+<p class="text-lg text-center text-white dark:text-black">最少3个月，通常需要6-12个月。但一旦建立，将终身受益。</p>
+</div>`,
  en: `<!-- Psychology Article - Calm Green/Teal Theme -->
 <div class="prose max-w-none">
 
@@ -4755,7 +5097,98 @@ export const blogPosts: BlogPost[] = [
 </div>
 </div>
 
-<p class="text-base leading-relaxed mb-4 text-center text-gray-700 dark:text-gray-300 italic">交易不是百米冲刺，而是一场马拉松。规律的作息、严格的纪律、持续的学习，才是长期成功的关键。</p>`,
+<p class="text-base leading-relaxed mb-4 text-center text-gray-700 dark:text-gray-300 italic">交易不是百米冲刺，而是一场马拉松。规律的作息、严格的纪律、持续的学习，才是长期成功的关键。</p>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">不同级别交易员的一天对比</h2>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">新手、中级和高级交易员的日常安排有很大不同。理解这些差异可以帮助你设定正确的目标。</p>
+
+<div class="overflow-x-auto mb-8">
+<table class="w-full border-2 border-black dark:border-white">
+<thead>
+<tr>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">时间段</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">新手交易员</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">中级交易员</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">高级交易员</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">07:00-09:00</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">起床，简单看新闻</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">系统分析市场，制定交易计划</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">冥想+深度分析+团队会议</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">09:00-12:00</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">频繁看盘，随机交易</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">等待交易机会，执行计划</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">关注关键品种，精确进场</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">12:00-14:00</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">午餐，继续盯盘</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">午休，暂停交易</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">运动/休息，完全离开电脑</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">20:00-24:00</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">疲劳交易，情绪化</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">黄金时段专注交易</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">高效交易+团队复盘</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">复盘时间</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">偶尔回顾，无系统</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">每日30分钟复盘</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">每日1小时+周总结</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">提高效率的工具和习惯</h2>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">📱 必备工具</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong>TradingView：</strong>专业图表分析</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong>Forex Calendar：</strong>经济数据日历</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong>Excel/Google Sheets：</strong>交易日志</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong>Notion：</strong>知识管理</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong>Pomodoro Timer：</strong>时间管理</span></li>
+</ul>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">⚡ 高效习惯</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>固定作息，每天同一时间起床</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>早晨制定当日交易计划</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>使用清单管理待办事项</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>番茄工作法，专注25分钟休息5分钟</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>晚上总结，为明天做准备</span></li>
+</ul>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">🎯 避免的误区</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>24小时盯盘（导致疲劳）</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>不吃饭或不规律饮食</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>缺乏运动和户外活动</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>熬夜交易影响第二天</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>忽视身体和心理健康</span></li>
+</ul>
+</div>
+</div>
+
+<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
+<p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">成功的一天 = 准备充分 + 执行到位 + 总结反思</p>
+<p class="text-lg text-center text-white dark:text-black">不是交易量越多越好，而是每一笔交易都符合标准，都有充分准备。</p>
+</div>`,
  en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">A Day in the Life of a Professional Trader</h1>
 
 <h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Morning (7:00-9:00)</h2>
