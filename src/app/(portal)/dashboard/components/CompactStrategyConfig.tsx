@@ -65,21 +65,25 @@ export default function CompactStrategyConfig({
     onConfigChange(newConfig);
   };
 
-  // 预设配置
+  // 预设配置 - 回调策略 (Pullback Strategy, 1.75 Profit Factor)
   const presets = {
     conservative: {
       aggressiveness: 1 as 1 | 2 | 3,
-      trailingActivation: 1.0,
-      trailingDistance: 1.2,
+      trailingActivation: 2.0,  // 2R激活（更保守）
+      trailingDistance: 1.5,     // 1.5 ATR距离
+      stopLossMultiple: 2.5,     // 更宽的止损
+      takeProfitLevels: [2.5, 5.0, 8.0],  // 保守目标
       maxDailyLoss: 300,
       maxDrawdown: 0.08,
       positionSize: 10, // USDT
       leverage: 5,
     },
     moderate: {
-      aggressiveness: 2 as 1 | 2 | 3,
-      trailingActivation: 0.8,
-      trailingDistance: 1.0,
+      aggressiveness: 3 as 1 | 2 | 3,  // 回调策略推荐激进度=3
+      trailingActivation: 1.5,  // 1.5R激活（验证通过）
+      trailingDistance: 1.0,     // 1 ATR距离（验证通过）
+      stopLossMultiple: 2.0,     // 2 ATR止损（验证通过）
+      takeProfitLevels: [3.0, 6.0, 9.0],  // 3R/6R/9R（验证通过，1.75盈亏比）
       maxDailyLoss: 500,
       maxDrawdown: 0.10,
       positionSize: 10, // USDT
@@ -87,8 +91,10 @@ export default function CompactStrategyConfig({
     },
     aggressive: {
       aggressiveness: 3 as 1 | 2 | 3,
-      trailingActivation: 0.6,
-      trailingDistance: 0.8,
+      trailingActivation: 1.2,  // 1.2R激活（更激进）
+      trailingDistance: 0.8,     // 0.8 ATR距离（更紧）
+      stopLossMultiple: 1.8,     // 更紧的止损
+      takeProfitLevels: [3.5, 7.0, 10.0],  // 更高目标
       maxDailyLoss: 800,
       maxDrawdown: 0.15,
       positionSize: 10, // USDT
@@ -112,6 +118,8 @@ export default function CompactStrategyConfig({
         maxDrawdown: p.maxDrawdown,
         positionSize: p.positionSize,
         leverage: p.leverage,
+        stopLossMultiple: p.stopLossMultiple,           // 添加回调策略止损参数
+        takeProfitLevels: p.takeProfitLevels,           // 添加回调策略止盈参数
       },
     });
   };

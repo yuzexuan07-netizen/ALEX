@@ -59,14 +59,14 @@ export default function BacktestPanel({ tradingConfig: initialConfig, onConfigCh
     setShowProgress(true);
     setProgressStage('fetching');
     setProgressPercent(0);
-    setProgressMessage('正在从Binance获取历史K线数据...');
+    setProgressMessage('正在获取历史K线数据...');
 
     try {
       // Simulate fetching progress
       setProgressPercent(10);
       await new Promise(resolve => setTimeout(resolve, 300));
       setProgressPercent(30);
-      setProgressMessage('连接到Binance API...');
+      setProgressMessage('连接到数据源API...');
 
       const response = await fetch('/api/trading/backtest', {
         method: 'POST',
@@ -196,10 +196,10 @@ export default function BacktestPanel({ tradingConfig: initialConfig, onConfigCh
             </svg>
             <div>
               <p className="text-sm font-bold text-black dark:text-white">
-                使用Binance真实历史数据
+                使用真实历史数据
               </p>
               <p className="text-xs text-gray-600 dark:text-gray-400 mt-1">
-                回测将使用Binance免费提供的{tradingConfig.symbol}历史K线数据，无需API密钥
+                外汇品种(XAUUSDT等)使用Twelve Data/Alpha Vantage真实数据，加密货币使用Binance真实数据，均无需API密钥
               </p>
             </div>
           </div>
@@ -258,7 +258,24 @@ export default function BacktestPanel({ tradingConfig: initialConfig, onConfigCh
                   <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
                 </svg>
                 <p className="text-sm font-bold text-black dark:text-white">
-                  数据来源: {results.dataSource === 'binance-public' ? 'Binance API (真实数据)' : '模拟历史数据 (确定性生成)'}
+                  数据来源: {(() => {
+                    switch (results.dataSource) {
+                      case 'twelve-data':
+                        return 'Twelve Data API (外汇真实数据)';
+                      case 'alpha-vantage':
+                        return 'Alpha Vantage API (外汇真实数据)';
+                      case 'binance-public':
+                        return 'Binance API (加密货币真实数据)';
+                      case 'simulated-forex':
+                        return '模拟外汇数据 (确定性生成)';
+                      case 'simulated-crypto':
+                        return '模拟加密货币数据 (确定性生成)';
+                      case 'generated':
+                        return '模拟历史数据 (确定性生成)';
+                      default:
+                        return results.dataSource || '未知数据源';
+                    }
+                  })()}
                 </p>
               </div>
             </div>
