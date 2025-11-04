@@ -25,7 +25,7 @@ export default function ShineButton({
       disabled={disabled}
       whileHover={{ scale: disabled ? 1 : 1.05 }}
       whileTap={{ scale: disabled ? 1 : 0.95 }}
-      className={`relative overflow-hidden bg-black dark:bg-white text-white dark:text-black font-bold transition-all duration-300 ${
+      className={`relative overflow-hidden font-bold transition-all duration-300 ${
         disabled ? 'opacity-50 cursor-not-allowed' : ''
       } ${className}`}
     >
@@ -77,7 +77,7 @@ export function ShineLinkButton({
       href={href}
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
-      className={`relative overflow-hidden inline-block bg-black dark:bg-white text-white dark:text-black font-bold transition-all duration-300 ${className}`}
+      className={`relative overflow-hidden inline-block font-bold transition-all duration-300 ${className}`}
     >
       {/* Button Content */}
       <span className="relative z-10">{children}</span>

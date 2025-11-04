@@ -298,7 +298,7 @@ export default function PrivacyPolicyPage() {
         >
           <ShineLinkButton
             href="/"
-            className="inline-block px-8 py-3 hover:bg-gray-800 dark:hover:bg-gray-200"
+            className="inline-block px-8 py-3 bg-black dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200"
           >
             {language === 'zh' ? '返回首页' : 'Back to Home'}
           </ShineLinkButton>

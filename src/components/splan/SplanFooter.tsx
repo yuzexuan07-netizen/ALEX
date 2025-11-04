@@ -87,7 +87,7 @@ export default function SplanFooter() {
               <li className="pt-2">
                 <ShineLinkButton
                   href="/splan/join-us"
-                  className="inline-block px-4 py-2">
+                  className="inline-block px-4 py-2 bg-black dark:bg-white text-white dark:text-black">
                   {t('footer.contact.apply')}
                 </ShineLinkButton>
               </li>
