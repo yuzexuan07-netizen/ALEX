@@ -58,6 +58,11 @@ export default function SplanFooter() {
                 </Link>
               </li>
               <li>
+                <Link href="/privacy" className="text-gray-400 hover:text-white transition-colors">
+                  {language === 'zh' ? '隐私政策' : 'Privacy Policy'}
+                </Link>
+              </li>
+              <li>
                 <a href="https://www.bilibili.com/video/BV19a411X7eY" target="_blank" rel="noopener noreferrer"
                    className="text-gray-400 hover:text-white transition-colors">
                   {t('video.doc1.title')}
