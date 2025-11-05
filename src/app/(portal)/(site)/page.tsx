@@ -1,7 +1,6 @@
 "use client";
 import { Code, Flex, Text } from "@radix-ui/themes";
 import { LinkPreview } from "@/components/ui/link-preview";
-import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 import { SparklesCore } from "@/components/ui/sparkles";
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
@@ -12,6 +11,7 @@ import { FadeInSlide, ScaleFadeIn, HoverCard, PulseButton, FloatingBadge, Stagge
 import Testimonials from '@/components/custom/Testimonials';
 import StatsSection from '@/components/custom/StatsSection';
 import InterviewCTA from '@/components/custom/InterviewCTA';
+import CandlestickChart from '@/components/custom/CandlestickChart';
 import Image from 'next/image';
 import { useLanguage } from '@/contexts/LanguageContext';
 import ShineButton from '@/components/custom/ShineButton';
@@ -54,62 +54,69 @@ const DummyContent = () => {
   }, [profitImages.length]);
 
   return (
-    <div className="w-full pt-20">{/* Added pt-20 for fixed navbar */}
-      <BackgroundBeamsWithCollision>
-        <div className="relative flex items-center justify-center" style={{ minHeight: 'calc(100vh - 10rem)' }}>
-          <div className="w-full">
-            <Flex width="100%" align="center" justify="center" direction="column">
-              <FadeInSlide direction="down" delay={0.2}>
-                <FloatingBadge>
-                  <div className="mb-4 flex justify-center">
-                    <span className="px-4 py-2 bg-black text-white text-sm font-semibold border border-gray-800">
-                      {t('hero.title')}
-                    </span>
-                  </div>
-                </FloatingBadge>
-              </FadeInSlide>
+    <div className="w-full -mt-20">
+      {/* Hero Section - Full Width K-line Background */}
+      <div className="relative bg-white dark:bg-black overflow-hidden h-screen">
+        {/* K-line Chart Background */}
+        <div className="absolute inset-0 w-full h-full">
+          <CandlestickChart />
+        </div>
 
-              <ScaleFadeIn delay={0.4}>
-                <h1 className="text-6xl md:text-8xl font-extrabold text-center text-gray-900 dark:text-white mb-8 tracking-tight">
-                  <BrandName />
-                </h1>
-              </ScaleFadeIn>
+        {/* Gradient Overlay - from left (opaque) to right (transparent) */}
+        <div
+          className="absolute inset-0 w-full h-full pointer-events-none"
+          style={{
+            background: 'linear-gradient(to right, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.85) 30%, rgba(255, 255, 255, 0.3) 60%, rgba(255, 255, 255, 0) 100%)'
+          }}
+        />
+        <div
+          className="absolute inset-0 w-full h-full pointer-events-none dark:block hidden"
+          style={{
+            background: 'linear-gradient(to right, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.85) 30%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0) 100%)'
+          }}
+        />
 
-              <FadeInSlide direction="up" delay={0.6}>
-                <p className="text-2xl md:text-3xl text-center text-gray-700 dark:text-gray-200 mb-6 font-semibold">
-                  {t('hero.subtitle')}
-                </p>
-              </FadeInSlide>
+        {/* Content Overlay - Centered in viewport */}
+        <div className="relative z-10 flex items-center h-full">
+          <div className="max-w-7xl mx-auto px-6 w-full">
+            <div className="max-w-3xl flex flex-col space-y-10">
+            {/* Main Title */}
+            <ScaleFadeIn delay={0.2}>
+              <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black text-black dark:text-white tracking-tight leading-none">
+                <BrandName />
+              </h1>
+            </ScaleFadeIn>
 
-              {/* 动态标语 */}
-              <FadeInSlide direction="up" delay={0.8}>
-                <div className="mb-12">
-                  <BrandSlogans showEnglish={false} />
-                </div>
-              </FadeInSlide>
-            </Flex>
+            {/* Subtitle */}
+            <FadeInSlide direction="right" delay={0.4}>
+              <p className="text-2xl md:text-3xl lg:text-4xl text-black dark:text-white font-bold leading-tight">
+                {t('hero.subtitle')}
+              </p>
+            </FadeInSlide>
 
-            <FadeInSlide direction="up" delay={1.0}>
-              <div className="flex flex-col md:flex-row gap-4 items-center justify-center">
+            {/* CTAs */}
+            <FadeInSlide direction="right" delay={0.6}>
+              <div className="flex flex-col sm:flex-row gap-6">
                 <PulseButton>
                   <ShineButton
                     onClick={() => router.push('/splan/join-us')}
-                    className="px-10 py-5 bg-black text-white text-lg font-bold border-2 border-black hover:bg-white hover:text-black transition-colors"
+                    className="px-12 py-6 bg-black dark:bg-white text-white dark:text-black text-xl font-black border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-all shadow-lg"
                   >
                     {t('hero.cta.learn')}
                   </ShineButton>
                 </PulseButton>
                 <button
                   onClick={() => router.push('/dashboard')}
-                  className="px-10 py-5 bg-white text-black text-lg font-bold border-2 border-black hover:bg-black hover:text-white transition-colors"
+                  className="px-12 py-6 bg-white dark:bg-black text-black dark:text-white text-xl font-black border-2 border-black dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all"
                 >
                   {t('hero.cta.dashboard')}
                 </button>
               </div>
             </FadeInSlide>
+            </div>
           </div>
         </div>
-      </BackgroundBeamsWithCollision>
+      </div>
 
       {/* 为什么选择 FX Killer - 增强版 */}
       <div className="max-w-7xl mx-auto px-6 py-20">
@@ -372,7 +379,7 @@ const DummyContent = () => {
         </p>
 
         {/* 条件卡片 */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           {/* 人群画像 */}
           <div className="bg-black dark:bg-white p-8 border-2 border-black dark:border-white">
             <div className="text-white dark:text-black">
@@ -460,13 +467,6 @@ const DummyContent = () => {
               <div className="text-5xl mb-4"></div>
               <h3 className="text-2xl font-bold mb-6">{t('unsuitable.title')}</h3>
               <div className="space-y-4">
-                <div className="border-l-4 border-black dark:border-white pl-4">
-                  <p className="font-bold text-lg flex items-center gap-2">
-                    <span className="text-red-600 dark:text-red-500">✗</span>
-                    {t('unsuitable.pressure')}
-                  </p>
-                  <p className="text-sm text-gray-700 dark:text-gray-400">{t('unsuitable.pressure.desc')}</p>
-                </div>
                 <div className="border-l-4 border-black dark:border-white pl-4">
                   <p className="font-bold text-lg flex items-center gap-2">
                     <span className="text-red-600 dark:text-red-500">✗</span>
@@ -722,17 +722,6 @@ export default function Home() {
 
   return (
     <div className="w-full">
-      <div className="w-full absolute inset-0 h-screen">
-        <SparklesCore
-          id="tsparticlesfullpage"
-          background="transparent"
-          minSize={0.6}
-          maxSize={1.4}
-          particleDensity={100}
-          className="w-full h-full"
-          particleColor="#000"
-        />
-      </div>
       <DummyContent />
     </div>
   );

@@ -43,9 +43,10 @@ const slogans = [
 interface BrandSlogansProps {
   showEnglish?: boolean;
   className?: string;
+  containerClassName?: string;
 }
 
-export default function BrandSlogans({ showEnglish = false, className = "" }: BrandSlogansProps) {
+export default function BrandSlogans({ showEnglish = false, className = "", containerClassName = "" }: BrandSlogansProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const { language } = useLanguage();
 
@@ -57,7 +58,7 @@ export default function BrandSlogans({ showEnglish = false, className = "" }: Br
   }, []);
 
   return (
-    <div className={`relative h-20 overflow-hidden ${className}`}>
+    <div className={`relative overflow-hidden ${containerClassName}`}>
       {slogans.map((slogan, index) => (
         <motion.div
           key={index}
@@ -67,13 +68,13 @@ export default function BrandSlogans({ showEnglish = false, className = "" }: Br
             y: currentIndex === index ? 0 : 20,
           }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="absolute inset-0 flex flex-col items-center justify-center"
+          className="absolute inset-0 flex flex-col justify-center"
         >
-          <p className="text-lg md:text-xl font-bold text-center text-gray-800 dark:text-gray-200 tracking-wide">
+          <p className={className || "text-lg md:text-xl font-bold text-gray-800 dark:text-gray-200 tracking-wide"}>
             {language === 'en' ? slogan.en : slogan.zh}
           </p>
           {showEnglish && language === 'zh' && (
-            <p className="text-sm text-gray-600 dark:text-gray-400 text-center mt-2 italic">
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-2 italic">
               {slogan.en}
             </p>
           )}
