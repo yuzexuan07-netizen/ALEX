@@ -18,7 +18,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 const translations: Record<Language, Record<string, string>> = {
   zh: {
     // 品牌名
-    'brand.name': '汇刃',
+    'brand.name': '量化族',
     'brand.full': 'FX Killer',
 
     // 导航栏
@@ -34,13 +34,13 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Hero Section
     'hero.title': 'Professional FX Trader Training Platform',
-    'hero.subtitle': '精准、专业、高效 - 培养真正的外汇交易专家',
-    'hero.cta.learn': '了解外汇培训',
+    'hero.subtitle': '精准、专业、高效 - 培养真正的量化交易专家',
+    'hero.cta.learn': '了解量化交易培训',
     'hero.cta.dashboard': '进入交易系统',
 
     // Why Choose Section
-    'why.title': '为什么选择汇刃',
-    'why.subtitle': '专注筛选和培养顶尖外汇交易员，培养真正适合的人，留下极少数，劝返大多数',
+    'why.title': '为什么选择量化族',
+    'why.subtitle': '专注筛选和培养顶尖量化交易员，培养真正适合的人，留下极少数，劝返大多数',
 
     // Advantages
     'advantage.selection.title': '精准筛选',
@@ -51,8 +51,8 @@ const translations: Record<Language, Record<string, string>> = {
     'advantage.commission.desc': '战利品至少60%属于你，随能力提升最高可达90%以上。荣辱与共，合作共赢。',
 
     // Comparison
-    'comparison.vs': 'VS 传统外汇培训',
-    'comparison.fxkiller': '汇刃',
+    'comparison.vs': 'VS 传统交易培训',
+    'comparison.fxkiller': '量化族',
     'comparison.traditional': '传统培训机构',
     'comparison.free': '完全免费 - 无任何培训费用',
     'comparison.practical': '实战培养 - 30天系统化职业训练',
